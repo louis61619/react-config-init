@@ -1,0 +1,6 @@
+@import '~antd/dist/antd.less';
+
+.page-space {
+  /* padding: 16px 8px; */
+  margin: 0 24px;
+}
