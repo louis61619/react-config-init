@@ -24,13 +24,6 @@
     "prepare": "husky install",
     "commit": "cz"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest",
-      "prettier"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -55,7 +48,7 @@
   },
   "lint-staged": {
     "*.{js,ts,tsx}": "eslint --fix",
-    "*.{json,css,md}": "prettier --write"
+    "*.{json,css,md}": "prettier --write ."
   },
   "config": {
     "commitizen": {
