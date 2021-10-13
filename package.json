@@ -25,7 +25,8 @@
     "test": "craco test",
     "eject": "react-scripts eject",
     "prepare": "husky install",
-    "commit": "cz"
+    "commit": "cz",
+    "lint": "chmod +x ./.husky/commit-msg  && chmod +x ./.husky/pre-commit"
   },
   "browserslist": {
     "production": [
