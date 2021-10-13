@@ -1,6 +1,6 @@
 const path = require('path')
-const resolve = dir => path.resolve(__dirname, dir)
-const CracoAntDesignPlugin = require('craco-antd');
+const resolve = (dir) => path.resolve(__dirname, dir)
+const CracoAntDesignPlugin = require('craco-antd')
 
 module.exports = {
   plugins: [
@@ -8,14 +8,14 @@ module.exports = {
       plugin: CracoAntDesignPlugin,
       options: {
         customizeTheme: {
-          '@primary-color': '#fa821b',
-        },
-      },
-    },
+          '@primary-color': '#fa821b'
+        }
+      }
+    }
   ],
   webpack: {
     alias: {
-      "@": resolve("src")
-    },
+      '@': resolve('src')
+    }
   }
-};
+}
